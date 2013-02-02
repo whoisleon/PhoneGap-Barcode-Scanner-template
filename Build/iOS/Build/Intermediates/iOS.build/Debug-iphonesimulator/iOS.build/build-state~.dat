@@ -1,0 +1,772 @@
+TiOS
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Info.plist iOS/iOS-Info.plist
+cPhaseScriptExecution "Touch www folder" /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Script-304B58A110DAC018002A0835.sh
+cCpResource www Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/www
+cCpResource iOS/config.xml Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/config.xml
+cCpResource iOS/Resources/icons/icon-72.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon-72.png
+cCpResource iOS/Resources/icons/icon.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon.png
+cCpResource iOS/Resources/icons/icon@2x.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon@2x.png
+cCpResource iOS/Resources/Capture.bundle Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Capture.bundle
+cCopyStringsFile /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/en.lproj/Localizable.strings iOS/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/es.lproj/Localizable.strings iOS/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/MainViewController.xib
+cCopyStringsFile /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/de.lproj/Localizable.strings iOS/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/se.lproj/Localizable.strings iOS/Resources/se.lproj/Localizable.strings
+cCpResource iOS/Resources/splash/Default-Landscape@2x~ipad.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Landscape@2x~ipad.png
+cCpResource iOS/Resources/splash/Default-Landscape~ipad.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Landscape~ipad.png
+cCpResource iOS/Resources/splash/Default-Portrait@2x~ipad.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Portrait@2x~ipad.png
+cCpResource iOS/Resources/splash/Default-Portrait~ipad.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Portrait~ipad.png
+cCpResource iOS/Resources/splash/Default@2x~iphone.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default@2x~iphone.png
+cCpResource iOS/Resources/splash/Default~iphone.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default~iphone.png
+cCpResource iOS/Resources/splash/Default-568h@2x~iphone.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-568h@2x~iphone.png
+cCompileXIB /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/scannerOverlay.xib
+cProcessPCH++ /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-fnyecuxnjpicehepjcsokqhnwoja/iOS-Prefix.pch.pth iOS/iOS-Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-bhhtbmpqhtgebfgfrksyowftvrmc/iOS-Prefix.pch.pth iOS/iOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-erkspmefjhsghsgvawzdrozgfypa/iOS-Prefix.pch.pth iOS/iOS-Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/zxing-all-in-one.o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/AppDelegate.o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/main.o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/MainViewController.o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/CDVBarcodeScanner.o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/CDVBarcodeScanner.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/iOS normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c000000005102E2D30000000000000110
+t1359143635
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000510B0DB600000000001EB540
+t1359678902
+s2012480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c00000000510B0DB500000000000C1030
+t1359678901
+s790576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c00000000510B0DB60000000000193640
+t1359678902
+s1652288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000510B0DB600000000003D4DF0
+t1359678902
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000510B0DB60000000000215DB0
+t1359678902
+s2186672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000510B0DB60000000000228FE0
+t1359678902
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000510B0DB7000000000009C590
+t1359678903
+s640400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000510B0DB70000000000085620
+t1359678903
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000510B0DB800000000003DDFA0
+t1359678904
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c00000000510B0DBB00000000002DBA50
+t1359678907
+s2996816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000510B0DBC00000000000BCC20
+t1359678908
+s773152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000510B0DBD00000000001D5750
+t1359678909
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000510B0DBE000000000006CC50
+t1359678910
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000510B0DC00000000000AB6230
+t1359678912
+s11231792
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-bhhtbmpqhtgebfgfrksyowftvrmc/iOS-Prefix.pch.pth
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-erkspmefjhsghsgvawzdrozgfypa/iOS-Prefix.pch.pth
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-fnyecuxnjpicehepjcsokqhnwoja/iOS-Prefix.pch.pth
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/CDVBarcodeScanner.o
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/iOS.LinkFileList
+c00000000510BF0580000000000000353
+t1359736920
+s851
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/zxing-all-in-one.o
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Script-304B58A110DAC018002A0835.sh
+c00000000510BF0580000000000000027
+t1359736920
+s39
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app.dSYM
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Capture.bundle
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-568h@2x~iphone.png
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default~iphone.png
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Info.plist
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/MainViewController.nib
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/PkgInfo
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/config.xml
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/iOS
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon-72.png
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon.png
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon@2x.png
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/scannerOverlay.nib
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/www
+t2
+s0
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/libCordova.a
+c00000000510BF0580000000000356B90
+t1359736920
+s3500944
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/AppDelegate.m
+c00000000510BEF810000000000001004
+t1359736705
+s4100
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/MainViewController.m
+c00000000510BEF810000000000001269
+t1359736705
+s4713
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/MainViewController.xib
+c00000000510BEF800000000000001759
+t1359736704
+s5977
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/CDVBarcodeScanner.mm
+c00000000510AFB8600000000000087BB
+t1359674246
+s34747
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/scannerOverlay.xib
+c00000000510AFB860000000000001FCE
+t1359674246
+s8142
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp
+c00000000510AFB86000000000006213E
+t1359674246
+s401726
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/Capture.bundle
+c00000000510BEF80000000000000030E
+t1359736704
+s782
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/de.lproj/Localizable.strings
+c00000000510BEF800000000000000485
+t1359736704
+s1157
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/en.lproj/Localizable.strings
+c00000000510BEF800000000000000470
+t1359736704
+s1136
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/es.lproj/Localizable.strings
+c00000000510BEF80000000000000047D
+t1359736704
+s1149
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/icons/icon-72.png
+c00000000510BEF800000000000001350
+t1359736704
+s4944
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/icons/icon.png
+c00000000510BEF800000000000000F3E
+t1359736704
+s3902
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/icons/icon@2x.png
+c00000000510BEF800000000000001EBD
+t1359736704
+s7869
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/se.lproj/Localizable.strings
+c00000000510BEF800000000000000471
+t1359736704
+s1137
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/splash/Default-568h@2x~iphone.png
+c00000000510BEF800000000000055EBB
+t1359736704
+s351931
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/splash/Default-Landscape@2x~ipad.png
+c00000000510BEF800000000000176888
+t1359736704
+s1534088
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/splash/Default-Landscape~ipad.png
+c00000000510BEF8100000000000674B7
+t1359736705
+s423095
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/splash/Default-Portrait@2x~ipad.png
+c00000000510BEF8100000000001892C2
+t1359736705
+s1610434
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/splash/Default-Portrait~ipad.png
+c00000000510BEF810000000000066F23
+t1359736705
+s421667
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/splash/Default@2x~iphone.png
+c00000000510BEF810000000000055981
+t1359736705
+s350593
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/splash/Default~iphone.png
+c00000000510BEF810000000000016EC9
+t1359736705
+s93897
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/config.xml
+c00000000510BEF800000000000000AC2
+t1359736704
+s2754
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/iOS-Prefix.pch
+c00000000510BEF8100000000000003B7
+t1359736705
+s951
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/main.m
+c00000000510BEF810000000000000455
+t1359736705
+s1109
+
+N/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/www
+c00000000510BEF810000000000000154
+t1359736705
+s340
+
+NiOS/iOS-Info.plist
+c00000000510BEF8100000000000009CF
+t1359736705
+s2511
+
+CBuild AST from /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/AppDelegate.m
+r0
+
+CBuild AST from /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/MainViewController.m
+r0
+
+CBuild AST from /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/CDVBarcodeScanner.mm
+r0
+
+CBuild AST from /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp
+r0
+
+CBuild AST from /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1d05b8d827bcb641^df31c4d827bcb641^---0#1#0#--18"Check dependencies36"57BA798D-5D5F-4066-AA7F-26F8D34BAD83-
+
+CCompileC Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/AppDelegate.o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381429722.166198
+e381429722.265175
+r1
+xCompileC
+xBuild/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/AppDelegate.o
+x/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/AppDelegate.m80b92ada27bcb641^a4e243da27bcb641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/AppDelegate.m0000000000000000^4005"CompileC Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/AppDelegate.o iOS/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-generated-files.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-own-target-headers.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-all-target-headers.hmap -iquote /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-project-headers.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/UninstalledProducts/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/DerivedSources/i386 -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/DerivedSources -F/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator -include /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-bhhtbmpqhtgebfgfrksyowftvrmc/iOS-Prefix.pch -MMD -MT dependencies -MF /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/AppDelegate.dia -c /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/AppDelegate.m -o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/AppDelegate.o36"7B95BB4E-EF85-499E-B7BD-CAF5F61CF01A-
+
+CCompileC Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/CDVBarcodeScanner.o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/CDVBarcodeScanner.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s381429722.233056
+e381429722.930560
+r1
+xCompileC
+xBuild/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/CDVBarcodeScanner.o
+x/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/CDVBarcodeScanner.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/CDVBarcodeScanner.mm47e83bda27bcb641^5438eeda27bcb641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/CDVBarcodeScanner.mm0000000000000000^4165"CompileC Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/CDVBarcodeScanner.o iOS/Plugins/CDVBarcodeScanner.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-generated-files.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-own-target-headers.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-all-target-headers.hmap -iquote /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-project-headers.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/UninstalledProducts/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/DerivedSources/i386 -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/DerivedSources -F/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator -include /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-fnyecuxnjpicehepjcsokqhnwoja/iOS-Prefix.pch -MMD -MT dependencies -MF /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/CDVBarcodeScanner.d --serialize-diagnostics /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/CDVBarcodeScanner.dia -c /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/CDVBarcodeScanner.mm -o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/CDVBarcodeScanner.o36"A07E4DFD-40B2-43F2-8789-C8B420ED2CDA-
+
+CCompileC Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/MainViewController.o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381429722.227966
+e381429722.315419
+r1
+xCompileC
+xBuild/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/MainViewController.o
+x/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/MainViewController.m8b883ada27bcb641^fdc150da27bcb641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/MainViewController.m0000000000000000^4047"CompileC Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/MainViewController.o iOS/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-generated-files.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-own-target-headers.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-all-target-headers.hmap -iquote /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-project-headers.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/UninstalledProducts/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/DerivedSources/i386 -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/DerivedSources -F/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator -include /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-bhhtbmpqhtgebfgfrksyowftvrmc/iOS-Prefix.pch -MMD -MT dependencies -MF /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/MainViewController.dia -c /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/MainViewController.m -o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/MainViewController.o36"F983B412-301F-4A6E-BE25-A2F28D6BF33E-
+
+CCompileC Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/main.o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381429722.166212
+e381429722.229030
+r1
+xCompileC
+xBuild/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/main.o
+x/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/main.mf5b92ada27bcb641^78983ada27bcb641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/main.m0000000000000000^3947"CompileC Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/main.o iOS/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-generated-files.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-own-target-headers.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-all-target-headers.hmap -iquote /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-project-headers.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/UninstalledProducts/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/DerivedSources/i386 -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/DerivedSources -F/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator -include /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-bhhtbmpqhtgebfgfrksyowftvrmc/iOS-Prefix.pch -MMD -MT dependencies -MF /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/main.dia -c /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/main.m -o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/main.o36"2A413759-C8C8-475C-AC24-C85522EAB9C0-
+
+CCompileC Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/zxing-all-in-one.o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s381429721.684285
+e381429725.085011
+r1
+xCompileC
+xBuild/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/zxing-all-in-one.o
+x/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp:1943:75: warning: adding 'int' to a string does not append to the string [-Wstring-plus-int]
+o    throw IllegalArgumentException("Requested row is outside the image: " + y);
+o                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+o/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp:1943:75: note: use array indexing to silence this warning
+o    throw IllegalArgumentException("Requested row is outside the image: " + y);
+o                                                                          ^
+o                                   &                                      [  ]
+o/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp:2020:75: warning: adding 'int' to a string does not append to the string [-Wstring-plus-int]
+o    throw IllegalArgumentException("Requested row is outside the image: " + y);
+o                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+o/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp:2020:75: note: use array indexing to silence this warning
+o    throw IllegalArgumentException("Requested row is outside the image: " + y);
+o                                                                          ^
+o                                   &                                      [  ]
+o/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp:10312:71: warning: adding 'int' to a string does not append to the string [-Wstring-plus-int]
+o    throw IllegalArgumentException("Bad ECI bits starting with byte " + firstByte);
+o                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+o/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp:10312:71: note: use array indexing to silence this warning
+o    throw IllegalArgumentException("Bad ECI bits starting with byte " + firstByte);
+o                                                                      ^
+o                                   &                                  [          ]
+o3 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cppc45bafd927bcb641^0dc515dd27bcb641^-2238"/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp:1943:75: warning: adding 'int' to a string does not append to the string [-Wstring-plus-int]    throw IllegalArgumentException("Requested row is outside the image: " + y);                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp:1943:75: note: use array indexing to silence this warning    throw IllegalArgumentException("Requested row is outside the image: " + y);                                                                          ^                                   &                                      [  ]/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp:2020:75: warning: adding 'int' to a string does not append to the string [-Wstring-plus-int]    throw IllegalArgumentException("Requested row is outside the image: " + y);                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp:2020:75: note: use array indexing to silence this warning    throw IllegalArgumentException("Requested row is outside the image: " + y);                                                                          ^                                   &                                      [  ]/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp:10312:71: warning: adding 'int' to a string does not append to the string [-Wstring-plus-int]    throw IllegalArgumentException("Bad ECI bits starting with byte " + firstByte);                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp:10312:71: note: use array indexing to silence this warning    throw IllegalArgumentException("Bad ECI bits starting with byte " + firstByte);                                                                      ^                                   &                                  [          ]3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@54"Adding 'int' to a string does not append to the string-381429725#18446744073709551615#0#1(2@42"Use array indexing to silence this warning-381429725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp0000000000000000^1942#74#1942#74#57092#0#14"Semantic Issue3(3@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp0000000000000000^1942#35#1942#35#57053#0#3@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp0000000000000000^1942#74#1942#75#57092#1#3@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp0000000000000000^1942#77#1942#77#57095#0#-1#27"com.apple.dt.IDE.diagnostic3@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp0000000000000000^1942#74#1942#74#57092#0#14"Semantic Issue1(3@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp0000000000000000^1942#35#1942#77#57053#41#-2@54"Adding 'int' to a string does not append to the string-381429725#18446744073709551615#0#1(2@42"Use array indexing to silence this warning-381429725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp0000000000000000^2019#74#2019#74#59969#0#14"Semantic Issue3(3@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp0000000000000000^2019#35#2019#35#59930#0#3@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp0000000000000000^2019#74#2019#75#59969#1#3@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp0000000000000000^2019#77#2019#77#59972#0#-1#27"com.apple.dt.IDE.diagnostic3@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp0000000000000000^2019#74#2019#74#59969#0#14"Semantic Issue1(3@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp0000000000000000^2019#35#2019#77#59930#41#-2@54"Adding 'int' to a string does not append to the string-381429725#18446744073709551615#0#1(2@42"Use array indexing to silence this warning-381429725#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp0000000000000000^10311#70#10311#70#344041#0#14"Semantic Issue3(3@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp0000000000000000^10311#35#10311#35#344006#0#3@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp0000000000000000^10311#70#10311#71#344041#1#3@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp0000000000000000^10311#81#10311#81#344052#0#-1#27"com.apple.dt.IDE.diagnostic3@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp0000000000000000^10311#70#10311#70#344041#0#14"Semantic Issue1(3@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp0000000000000000^10311#35#10311#81#344006#37#-0#0#0#-19%DVTDocumentLocation4@110"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp0000000000000000^3934"CompileC Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/zxing-all-in-one.o iOS/Plugins/zxing-all-in-one.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -mios-simulator-version-min=5.0 -iquote /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-generated-files.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-own-target-headers.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-all-target-headers.hmap -iquote /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-project-headers.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/UninstalledProducts/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/DerivedSources/i386 -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/DerivedSources -F/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator -include /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-erkspmefjhsghsgvawzdrozgfypa/iOS-Prefix.pch -MMD -MT dependencies -MF /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/zxing-all-in-one.d --serialize-diagnostics /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/zxing-all-in-one.dia -c /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/zxing-all-in-one.cpp -o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/zxing-all-in-one.o36"8A50307C-C82E-4ACC-AEDB-F78B740D515C-
+
+CCompileXIB /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/MainViewController.xib
+s381429720.833610
+e381429720.942234
+r1
+xCompileXIB
+x/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/MainViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compiling /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/MainViewController.xib847fd5d827bcb641^4548f1d827bcb641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/MainViewController.xib0000000000000000^991"CompileXIB iOS/Classes/MainViewController.xib    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/MainViewController.nib /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"3338785B-9A93-4A6E-A0B3-0A1AD48EE6B6-
+
+CCompileXIB /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/scannerOverlay.xib
+s381429720.922318
+e381429721.635549
+r1
+xCompileXIB
+x/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/scannerOverlay.xib
+o2013-02-01 10:42:01.594 Interface Builder Cocoa Touch Tool[3497:f07] CFPreferences: user home directory at file://localhost/Users/void/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compiling /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/scannerOverlay.xib003aecd827bcb641^35b3a2d927bcb641^-236"2013-02-01 10:42:01.594 Interface Builder Cocoa Touch Tool[3497:f07] CFPreferences: user home directory at file://localhost/Users/void/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/scannerOverlay.xib0000000000000000^979"CompileXIB iOS/Plugins/scannerOverlay.xib    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/scannerOverlay.nib /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Plugins/scannerOverlay.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"5489517F-F443-4A99-8B67-B6BB0155882A-
+
+CCopyStringsFile /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/de.lproj/Localizable.strings iOS/Resources/de.lproj/Localizable.strings
+s381429720.833623
+e381429720.937955
+r1
+xCopyStringsFile
+x/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/de.lproj/Localizable.strings
+xiOS/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy iOS/Resources/de.lproj/Localizable.stringsfe7ed5d827bcb641^f31df0d827bcb641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/de.lproj/Localizable.strings0000000000000000^669"CopyStringsFile Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/de.lproj/Localizable.strings iOS/Resources/de.lproj/Localizable.strings    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/de.lproj -- iOS/Resources/de.lproj/Localizable.strings36"152E52B4-50C3-4EE0-900E-AB531027AD4C-
+
+CCopyStringsFile /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/en.lproj/Localizable.strings iOS/Resources/en.lproj/Localizable.strings
+s381429720.822268
+e381429720.878604
+r1
+xCopyStringsFile
+x/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/en.lproj/Localizable.strings
+xiOS/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy iOS/Resources/en.lproj/Localizable.strings5798d2d827bcb641^630be1d827bcb641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/en.lproj/Localizable.strings0000000000000000^669"CopyStringsFile Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/en.lproj/Localizable.strings iOS/Resources/en.lproj/Localizable.strings    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/en.lproj -- iOS/Resources/en.lproj/Localizable.strings36"EEFA27C0-F029-4605-9D4C-451DF377BFB1-
+
+CCopyStringsFile /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/es.lproj/Localizable.strings iOS/Resources/es.lproj/Localizable.strings
+s381429720.822271
+e381429720.888595
+r1
+xCopyStringsFile
+x/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/es.lproj/Localizable.strings
+xiOS/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy iOS/Resources/es.lproj/Localizable.strings919ad2d827bcb641^6c7be3d827bcb641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/es.lproj/Localizable.strings0000000000000000^669"CopyStringsFile Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/es.lproj/Localizable.strings iOS/Resources/es.lproj/Localizable.strings    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/es.lproj -- iOS/Resources/es.lproj/Localizable.strings36"E26EEEE2-C337-4A27-84A9-688F94E12368-
+
+CCopyStringsFile /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/se.lproj/Localizable.strings iOS/Resources/se.lproj/Localizable.strings
+s381429720.888502
+e381429720.938477
+r1
+xCopyStringsFile
+x/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/se.lproj/Localizable.strings
+xiOS/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy iOS/Resources/se.lproj/Localizable.stringsa48de3d827bcb641^d53ff0d827bcb641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/se.lproj/Localizable.strings0000000000000000^669"CopyStringsFile Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/se.lproj/Localizable.strings iOS/Resources/se.lproj/Localizable.strings    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/se.lproj -- iOS/Resources/se.lproj/Localizable.strings36"EF3410A0-9371-4A36-9BB6-98C073F773E7-
+
+CCpResource iOS/Resources/Capture.bundle Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Capture.bundle
+s381429720.820800
+e381429720.832285
+r1
+xCpResource
+xiOS/Resources/Capture.bundle
+xBuild/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Capture.bundleb43dd2d827bcb641^0918d5d827bcb641^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Capture.bundle000000000080d041^694"CpResource iOS/Resources/Capture.bundle Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Capture.bundle    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/Capture.bundle /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app36"9C7176F4-35E0-4F36-8B33-1DF9E096F1EC-
+
+CCpResource iOS/Resources/icons/icon-72.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon-72.png
+s381429720.814851
+e381429720.819453
+r1
+xCpResource
+xiOS/Resources/icons/icon-72.png
+xBuild/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon-72.png15add0d827bcb641^89cfd1d827bcb641^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon-72.png000000000080d041^697"CpResource iOS/Resources/icons/icon-72.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon-72.png    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/icons/icon-72.png /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app36"257B2CB3-7D30-431E-92EF-AA1BD722078B-
+
+CCpResource iOS/Resources/icons/icon.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon.png
+s381429720.815183
+e381429720.821056
+r1
+xCpResource
+xiOS/Resources/icons/icon.png
+xBuild/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon.png6abcd0d827bcb641^ea3cd2d827bcb641^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon.png000000000080d041^688"CpResource iOS/Resources/icons/icon.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon.png    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/icons/icon.png /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app36"27B513BF-4A48-40FA-8E10-4F3692D1B888-
+
+CCpResource iOS/Resources/icons/icon@2x.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon@2x.png
+s381429720.819232
+e381429720.821915
+r1
+xCpResource
+xiOS/Resources/icons/icon@2x.png
+xBuild/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon@2x.pngf6d1d1d827bcb641^6073d2d827bcb641^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon@2x.png000000000080d041^703"CpResource "iOS/Resources/icons/icon@2x.png" "Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/icon@2x.png"    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/icons/icon@2x.png" /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app36"A007B438-B67E-4497-ABF4-88EB71494B7F-
+
+CCpResource iOS/Resources/splash/Default-568h@2x~iphone.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-568h@2x~iphone.png
+s381429720.918043
+e381429720.921099
+r1
+xCpResource
+xiOS/Resources/splash/Default-568h@2x~iphone.png
+xBuild/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-568h@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Copy Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-568h@2x~iphone.pngf41aebd827bcb641^8eccebd827bcb641^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-568h@2x~iphone.png000000000080d041^750"CpResource "iOS/Resources/splash/Default-568h@2x~iphone.png" "Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-568h@2x~iphone.png"    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/splash/Default-568h@2x~iphone.png" /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app36"E5DD8C01-44D2-411C-964D-3884BC4175C1-
+
+CCpResource iOS/Resources/splash/Default-Landscape@2x~ipad.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Landscape@2x~ipad.png
+s381429720.890668
+e381429720.894965
+r1
+xCpResource
+xiOS/Resources/splash/Default-Landscape@2x~ipad.png
+xBuild/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Landscape@2x~ipad.png4e28e4d827bcb641^611be5d827bcb641^---0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Landscape@2x~ipad.png000000000080d041^759"CpResource "iOS/Resources/splash/Default-Landscape@2x~ipad.png" "Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Landscape@2x~ipad.png"    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/splash/Default-Landscape@2x~ipad.png" /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app36"22B1F91F-ED6F-4FDA-9410-C3EC5A21DC37-
+
+CCpResource iOS/Resources/splash/Default-Landscape~ipad.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Landscape~ipad.png
+s381429720.896423
+e381429720.899304
+r1
+xCpResource
+xiOS/Resources/splash/Default-Landscape~ipad.png
+xBuild/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Copy Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Landscape~ipad.png328ee5d827bcb641^c938e6d827bcb641^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Landscape~ipad.png000000000080d041^750"CpResource "iOS/Resources/splash/Default-Landscape~ipad.png" "Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Landscape~ipad.png"    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/splash/Default-Landscape~ipad.png" /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app36"D1649C52-E4E7-45E0-8ACE-2DBF0A99E804-
+
+CCpResource iOS/Resources/splash/Default-Portrait@2x~ipad.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Portrait@2x~ipad.png
+s381429720.900890
+e381429720.904874
+r1
+xCpResource
+xiOS/Resources/splash/Default-Portrait@2x~ipad.png
+xBuild/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Copy Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Portrait@2x~ipad.png96b0e6d827bcb641^acaae7d827bcb641^---0#0#0#-19%DVTDocumentLocation2@161"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Portrait@2x~ipad.png000000000080d041^756"CpResource "iOS/Resources/splash/Default-Portrait@2x~ipad.png" "Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Portrait@2x~ipad.png"    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/splash/Default-Portrait@2x~ipad.png" /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app36"6CFC6730-9685-4662-B8A3-A49B5A873E3F-
+
+CCpResource iOS/Resources/splash/Default-Portrait~ipad.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Portrait~ipad.png
+s381429720.906193
+e381429720.909172
+r1
+xCpResource
+xiOS/Resources/splash/Default-Portrait~ipad.png
+xBuild/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Portrait~ipad.png5d15e8d827bcb641^bec0e8d827bcb641^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Portrait~ipad.png000000000080d041^747"CpResource "iOS/Resources/splash/Default-Portrait~ipad.png" "Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default-Portrait~ipad.png"    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/splash/Default-Portrait~ipad.png" /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app36"C94B7672-3652-443E-9A1B-82B1F881DCAE-
+
+CCpResource iOS/Resources/splash/Default@2x~iphone.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default@2x~iphone.png
+s381429720.910491
+e381429720.912959
+r1
+xCpResource
+xiOS/Resources/splash/Default@2x~iphone.png
+xBuild/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Copy Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default@2x~iphone.png4226e9d827bcb641^aeb7e9d827bcb641^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default@2x~iphone.png000000000080d041^735"CpResource "iOS/Resources/splash/Default@2x~iphone.png" "Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default@2x~iphone.png"    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/splash/Default@2x~iphone.png" /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app36"EFF88488-104B-489B-97BD-2F34D378AF6F-
+
+CCpResource iOS/Resources/splash/Default~iphone.png Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default~iphone.png
+s381429720.914266
+e381429720.916791
+r1
+xCpResource
+xiOS/Resources/splash/Default~iphone.png
+xBuild/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default~iphone.pngb22eead827bcb641^68b3ead827bcb641^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default~iphone.png000000000080d041^726"CpResource "iOS/Resources/splash/Default~iphone.png" "Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Default~iphone.png"    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/Resources/splash/Default~iphone.png" /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app36"DC76D4DF-2F84-411B-BB3A-7BD67EAEB809-
+
+CCpResource iOS/config.xml Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/config.xml
+s381429720.814696
+e381429720.818056
+r1
+xCpResource
+xiOS/config.xml
+xBuild/iOS/Build/Products/Debug-iphonesimulator/iOS.app/config.xml
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/config.xml48a5d0d827bcb641^ec6bd1d827bcb641^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/config.xml000000000080d041^662"CpResource iOS/config.xml Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/config.xml    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/config.xml /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app36"AEE02CFB-5B5D-4498-99ED-7CA03A613240-
+
+CCpResource www Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/www
+s381429720.814687
+e381429720.832283
+r1
+xCpResource
+xwww
+xBuild/iOS/Build/Products/Debug-iphonesimulator/iOS.app/www
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/www51a3d0d827bcb641^6213d5d827bcb641^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/www000000000080d041^633"CpResource www Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/www    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/www /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app36"CD7C9620-4D5E-4D84-ADB5-173518115021-
+
+CGenerateDSYMFile /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app.dSYM /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/iOS
+r0
+
+CLd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/iOS normal i386
+s381429725.092172
+e381429725.297174
+r0
+xLd
+x/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/iOS
+xnormal
+xi386
+oUndefined symbols for architecture i386:
+o  "_CVPixelBufferGetBaseAddress", referenced from:
+o      -[CDVbcsProcessor getLuminanceSourceFromSample:imageBytes:] in CDVBarcodeScanner.o
+o      -[CDVbcsProcessor getImageFromSample:] in CDVBarcodeScanner.o
+o  "_CVPixelBufferGetBytesPerRow", referenced from:
+o      -[CDVbcsProcessor getLuminanceSourceFromSample:imageBytes:] in CDVBarcodeScanner.o
+o      -[CDVbcsProcessor getImageFromSample:] in CDVBarcodeScanner.o
+o  "_CVPixelBufferGetHeight", referenced from:
+o      -[CDVbcsProcessor getLuminanceSourceFromSample:imageBytes:] in CDVBarcodeScanner.o
+o      -[CDVbcsProcessor getImageFromSample:] in CDVBarcodeScanner.o
+o  "_CVPixelBufferGetWidth", referenced from:
+o      -[CDVbcsProcessor getLuminanceSourceFromSample:imageBytes:] in CDVBarcodeScanner.o
+o      -[CDVbcsProcessor getImageFromSample:] in CDVBarcodeScanner.o
+o  "_CVPixelBufferLockBaseAddress", referenced from:
+o      -[CDVbcsProcessor getLuminanceSourceFromSample:imageBytes:] in CDVBarcodeScanner.o
+o      -[CDVbcsProcessor getImageFromSample:] in CDVBarcodeScanner.o
+o  "_CVPixelBufferUnlockBaseAddress", referenced from:
+o      -[CDVbcsProcessor getLuminanceSourceFromSample:imageBytes:] in CDVBarcodeScanner.o
+o      -[CDVbcsProcessor getImageFromSample:] in CDVBarcodeScanner.o
+o  "_OBJC_CLASS_$_ALAssetsLibrary", referenced from:
+o      objc-class-ref in CDVBarcodeScanner.o
+o  "_iconv", referenced from:
+o      zxing::qrcode::DecodedBitStreamParser::append(std::string&, unsigned char const*, unsigned long, char const*) in zxing-all-in-one.o
+o  "_iconv_close", referenced from:
+o      zxing::qrcode::DecodedBitStreamParser::append(std::string&, unsigned char const*, unsigned long, char const*) in zxing-all-in-one.o
+o  "_iconv_open", referenced from:
+o      zxing::qrcode::DecodedBitStreamParser::append(std::string&, unsigned char const*, unsigned long, char const*) in zxing-all-in-one.o
+o  "_kCVPixelBufferPixelFormatTypeKey", referenced from:
+o      -[CDVbcsProcessor setUpCaptureSession] in CDVBarcodeScanner.o
+old: symbol(s) not found for architecture i386
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Link /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/iOS71c717dd27bcb641^990f4cdd27bcb641^-2140"Undefined symbols for architecture i386:  "_CVPixelBufferGetBaseAddress", referenced from:      -[CDVbcsProcessor getLuminanceSourceFromSample:imageBytes:] in CDVBarcodeScanner.o      -[CDVbcsProcessor getImageFromSample:] in CDVBarcodeScanner.o  "_CVPixelBufferGetBytesPerRow", referenced from:      -[CDVbcsProcessor getLuminanceSourceFromSample:imageBytes:] in CDVBarcodeScanner.o      -[CDVbcsProcessor getImageFromSample:] in CDVBarcodeScanner.o  "_CVPixelBufferGetHeight", referenced from:      -[CDVbcsProcessor getLuminanceSourceFromSample:imageBytes:] in CDVBarcodeScanner.o      -[CDVbcsProcessor getImageFromSample:] in CDVBarcodeScanner.o  "_CVPixelBufferGetWidth", referenced from:      -[CDVbcsProcessor getLuminanceSourceFromSample:imageBytes:] in CDVBarcodeScanner.o      -[CDVbcsProcessor getImageFromSample:] in CDVBarcodeScanner.o  "_CVPixelBufferLockBaseAddress", referenced from:      -[CDVbcsProcessor getLuminanceSourceFromSample:imageBytes:] in CDVBarcodeScanner.o      -[CDVbcsProcessor getImageFromSample:] in CDVBarcodeScanner.o  "_CVPixelBufferUnlockBaseAddress", referenced from:      -[CDVbcsProcessor getLuminanceSourceFromSample:imageBytes:] in CDVBarcodeScanner.o      -[CDVbcsProcessor getImageFromSample:] in CDVBarcodeScanner.o  "_OBJC_CLASS_$_ALAssetsLibrary", referenced from:      objc-class-ref in CDVBarcodeScanner.o  "_iconv", referenced from:      zxing::qrcode::DecodedBitStreamParser::append(std::string&, unsigned char const*, unsigned long, char const*) in zxing-all-in-one.o  "_iconv_close", referenced from:      zxing::qrcode::DecodedBitStreamParser::append(std::string&, unsigned char const*, unsigned long, char const*) in zxing-all-in-one.o  "_iconv_open", referenced from:      zxing::qrcode::DecodedBitStreamParser::append(std::string&, unsigned char const*, unsigned long, char const*) in zxing-all-in-one.o  "_kCVPixelBufferPixelFormatTypeKey", referenced from:      -[CDVbcsProcessor setUpCaptureSession] in CDVBarcodeScanner.old: symbol(s) not found for architecture i386clang: error: linker command failed with exit code 1 (use -v to see invocation)30(21%IDEActivityLogMessage2@48""_CVPixelBufferGetBaseAddress", referenced from:-381429725#41#51#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@82"-[CDVbcsProcessor getLuminanceSourceFromSample:imageBytes:] in CDVBarcodeScanner.o-381429725#92#89#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@61"-[CDVbcsProcessor getImageFromSample:] in CDVBarcodeScanner.o-381429725#181#68#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@48""_CVPixelBufferGetBytesPerRow", referenced from:-381429725#249#51#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@82"-[CDVbcsProcessor getLuminanceSourceFromSample:imageBytes:] in CDVBarcodeScanner.o-381429725#300#89#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@61"-[CDVbcsProcessor getImageFromSample:] in CDVBarcodeScanner.o-381429725#389#68#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@43""_CVPixelBufferGetHeight", referenced from:-381429725#457#46#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@82"-[CDVbcsProcessor getLuminanceSourceFromSample:imageBytes:] in CDVBarcodeScanner.o-381429725#503#89#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@61"-[CDVbcsProcessor getImageFromSample:] in CDVBarcodeScanner.o-381429725#592#68#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@42""_CVPixelBufferGetWidth", referenced from:-381429725#660#45#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@82"-[CDVbcsProcessor getLuminanceSourceFromSample:imageBytes:] in CDVBarcodeScanner.o-381429725#705#89#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@61"-[CDVbcsProcessor getImageFromSample:] in CDVBarcodeScanner.o-381429725#794#68#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@49""_CVPixelBufferLockBaseAddress", referenced from:-381429725#862#52#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@82"-[CDVbcsProcessor getLuminanceSourceFromSample:imageBytes:] in CDVBarcodeScanner.o-381429725#914#89#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@61"-[CDVbcsProcessor getImageFromSample:] in CDVBarcodeScanner.o-381429725#1003#68#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@51""_CVPixelBufferUnlockBaseAddress", referenced from:-381429725#1071#54#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@82"-[CDVbcsProcessor getLuminanceSourceFromSample:imageBytes:] in CDVBarcodeScanner.o-381429725#1125#89#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@61"-[CDVbcsProcessor getImageFromSample:] in CDVBarcodeScanner.o-381429725#1214#68#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@49""_OBJC_CLASS_$_ALAssetsLibrary", referenced from:-381429725#1282#52#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@37"Objc-class-ref in CDVBarcodeScanner.o-381429725#1334#44#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@26""_iconv", referenced from:-381429725#1378#29#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@131"Zxing::qrcode::DecodedBitStreamParser::append(std::string&, unsigned char const*, unsigned long, char const*) in zxing-all-in-one.o-381429725#1407#138#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@32""_iconv_close", referenced from:-381429725#1545#35#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@131"Zxing::qrcode::DecodedBitStreamParser::append(std::string&, unsigned char const*, unsigned long, char const*) in zxing-all-in-one.o-381429725#1580#138#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@31""_iconv_open", referenced from:-381429725#1718#34#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@131"Zxing::qrcode::DecodedBitStreamParser::append(std::string&, unsigned char const*, unsigned long, char const*) in zxing-all-in-one.o-381429725#1752#138#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@53""_kCVPixelBufferPixelFormatTypeKey", referenced from:-381429725#1890#56#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@61"-[CDVbcsProcessor setUpCaptureSession] in CDVBarcodeScanner.o-381429725#1946#68#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@41"Symbol(s) not found for architecture i386-381429725#2014#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-381429725#2060#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--0#0#0#--1869"Ld Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/iOS normal i386    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator -F/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator -filelist /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/iOS.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/iOS36"E3E75EBA-E383-4DAD-A185-6567A255EFB9-
+
+CPhaseScriptExecution "Touch www folder" /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Script-304B58A110DAC018002A0835.sh
+s381429720.788239
+e381429720.806300
+r1
+xPhaseScriptExecution
+xTouch www folder
+x/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Script-304B58A110DAC018002A0835.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Run custom shell script 'Touch www folder'4b8fcad827bcb641^9068ced827bcb641^---0#0#0#--21824"PhaseScriptExecution "Touch www folder" Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Script-304B58A110DAC018002A0835.sh    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER void    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products    setenv BUILD_ROOT /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/69/xdw8y23d2jd5ltnbd2x8zkqm0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/69/xdw8y23d2jd5ltnbd2x8zkqm0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_OBJCPP_ARC_ABI YES    setenv CLASS_FILE_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/69/xdw8y23d2jd5ltnbd2x8zkqm0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH iOS.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/void/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH iOS.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/iOS.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME iOS.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH iOS.app/Executables    setenv EXECUTABLE_FOLDER_PATH iOS.app    setenv EXECUTABLE_NAME iOS    setenv EXECUTABLE_PATH iOS.app/iOS    setenv FILE_LIST /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH iOS.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME iOS.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER iOS/iOS-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/include\" \"/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/usr/local/lib/include\" \"/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/UninstalledProducts/include\" \"/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE iOS/iOS-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH iOS.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH iOS.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/iOS.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER void    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/iOS.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH iOS.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal/i386/iOS.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH iOS.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12C60    setenv MAC_OS_X_VERSION_ACTUAL 1082    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0802    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Objects-normal    setenv OBJROOT /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH iOS.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS "objective-c c++ objective-c++"    setenv PKGINFO_FILE_PATH /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/PkgInfo    setenv PKGINFO_PATH iOS.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH iOS.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH iOS.app/PrivateHeaders    setenv PRODUCT_NAME iOS    setenv PRODUCT_SETTINGS_PATH /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/iOS-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT iOS    setenv PROJECT_DERIVED_FILE_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/DerivedSources    setenv PROJECT_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv PROJECT_FILE_PATH /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS.xcodeproj    setenv PROJECT_NAME iOS    setenv PROJECT_TEMP_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build    setenv PROJECT_TEMP_ROOT /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates    setenv PUBLIC_HEADERS_FOLDER_PATH iOS.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH iOS.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH iOS.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH iOS.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv SRCROOT /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME iOS    setenv TARGET_BUILD_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator    setenv TARGET_NAME iOS    setenv TARGET_TEMP_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build    setenv TEMP_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build    setenv TEMP_FILES_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build    setenv TEMP_FILE_DIR /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build    setenv TEMP_ROOT /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH iOS.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER void    setenv USER_APPS_DIR /Users/void/Applications    setenv USER_LIBRARY_DIR /Users/void/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH iOS.app/version.plist    setenv VERSION_INFO_BUILDER void    setenv VERSION_INFO_FILE iOS_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:iOS  PROJECT:iOS-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME iOS.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H127    setenv XCODE_VERSION_ACTUAL 0460    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/Script-304B58A110DAC018002A0835.sh36"25F8530E-28C4-4047-820F-53B38F840CE7-
+
+CProcessInfoPlistFile /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Info.plist iOS/iOS-Info.plist
+s381429720.775473
+e381429720.779992
+r1
+xProcessInfoPlistFile
+x/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Info.plist
+xiOS/iOS-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Process iOS/iOS-Info.plistd596c6d827bcb641^04aec7d827bcb641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/iOS-Info.plist0000000000000000^748"ProcessInfoPlistFile Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Info.plist iOS/iOS-Info.plist    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iOS/iOS-Info.plist -genpkginfo /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app/Info.plist36"D5F58DC0-1042-4449-8707-81CCD03D19BD-
+
+CProcessPCH /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-bhhtbmpqhtgebfgfrksyowftvrmc/iOS-Prefix.pch.pth iOS/iOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381429721.643877
+e381429722.159209
+r1
+xProcessPCH
+x/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-bhhtbmpqhtgebfgfrksyowftvrmc/iOS-Prefix.pch.pth
+xiOS/iOS-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile iOS/iOS-Prefix.pch6b0da5d927bcb641^1edd28da27bcb641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/iOS-Prefix.pch0000000000000000^3829"ProcessPCH Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-bhhtbmpqhtgebfgfrksyowftvrmc/iOS-Prefix.pch.pth iOS/iOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-generated-files.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-own-target-headers.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-all-target-headers.hmap -iquote /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-project-headers.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/UninstalledProducts/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/DerivedSources/i386 -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/DerivedSources -F/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-bhhtbmpqhtgebfgfrksyowftvrmc/iOS-Prefix.pch.dia -c /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/iOS-Prefix.pch -o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-bhhtbmpqhtgebfgfrksyowftvrmc/iOS-Prefix.pch.pth -MMD -MT dependencies -MF /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-bhhtbmpqhtgebfgfrksyowftvrmc/iOS-Prefix.pch.d36"8F039669-7A8A-42D5-942E-8DA86BD12D12-
+
+CProcessPCH /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Index/PrecompiledHeaders/iOS-Prefix-bpgfyjzphtxibiazesrdqvmfaihe_ast/iOS-Prefix.pch.pth iOS/iOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-erkspmefjhsghsgvawzdrozgfypa/iOS-Prefix.pch.pth iOS/iOS-Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s381429721.644521
+e381429721.675722
+r1
+xProcessPCH++
+x/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-erkspmefjhsghsgvawzdrozgfypa/iOS-Prefix.pch.pth
+xiOS/iOS-Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile iOS/iOS-Prefix.pchc922a5d927bcb641^340eadd927bcb641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/iOS-Prefix.pch0000000000000000^3726"ProcessPCH++ Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-erkspmefjhsghsgvawzdrozgfypa/iOS-Prefix.pch.pth iOS/iOS-Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -mios-simulator-version-min=5.0 -iquote /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-generated-files.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-own-target-headers.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-all-target-headers.hmap -iquote /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-project-headers.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/UninstalledProducts/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/DerivedSources/i386 -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/DerivedSources -F/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-erkspmefjhsghsgvawzdrozgfypa/iOS-Prefix.pch.dia -c /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/iOS-Prefix.pch -o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-erkspmefjhsghsgvawzdrozgfypa/iOS-Prefix.pch.pth -MMD -MT dependencies -MF /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-erkspmefjhsghsgvawzdrozgfypa/iOS-Prefix.pch.d36"8ECA4211-6D8C-4FA6-9639-DB4B5DC920D0-
+
+CProcessPCH++ /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-fnyecuxnjpicehepjcsokqhnwoja/iOS-Prefix.pch.pth iOS/iOS-Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s381429721.643842
+e381429722.226518
+r1
+xProcessPCH++
+x/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-fnyecuxnjpicehepjcsokqhnwoja/iOS-Prefix.pch.pth
+xiOS/iOS-Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile iOS/iOS-Prefix.pch5c01a5d927bcb641^b5ff39da27bcb641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/iOS-Prefix.pch0000000000000000^3953"ProcessPCH++ Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-fnyecuxnjpicehepjcsokqhnwoja/iOS-Prefix.pch.pth iOS/iOS-Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-generated-files.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-own-target-headers.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-all-target-headers.hmap -iquote /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/iOS-project-headers.hmap -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/usr/local/lib/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/UninstalledProducts/include -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/DerivedSources/i386 -I/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/iOS.build/Debug-iphonesimulator/iOS.build/DerivedSources -F/Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-fnyecuxnjpicehepjcsokqhnwoja/iOS-Prefix.pch.dia -c /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/iOS/iOS-Prefix.pch -o /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-fnyecuxnjpicehepjcsokqhnwoja/iOS-Prefix.pch.pth -MMD -MT dependencies -MF /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Intermediates/PrecompiledHeaders/iOS-Prefix-fnyecuxnjpicehepjcsokqhnwoja/iOS-Prefix.pch.d36"7E516F38-325B-4800-8A47-5FD167DA6BA7-
+
+CProcessPCH++ /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Index/PrecompiledHeaders/iOS-Prefix-elesiziwoaisayfqajvrhyutehep_ast/iOS-Prefix.pch.pth iOS/iOS-Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Index/PrecompiledHeaders/iOS-Prefix-hcqhlwaqehvfhteljuzfvjddvlrv_ast/iOS-Prefix.pch.pth iOS/iOS-Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/void/Documents/WORK/iPhoneDevelopment/PhoneGap/Jan2013/Build/iOS/Build/Products/Debug-iphonesimulator/iOS.app
+r0
+
